@@ -3,6 +3,7 @@
 
 @import "{{ site.theme }}";
 
-header img {
-  width: 100%;
+img.header {
+  border: none;
+  width: 85%;
 }  
