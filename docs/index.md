@@ -1,3 +1,8 @@
+---
+nav: index
+subnav: page1
+---
+
 # Testing Title
 
 Some text
