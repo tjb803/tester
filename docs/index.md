@@ -4,5 +4,5 @@ Some text
 
 ## Testing Sub-Title
 
-Some more text
+Some more text and [link to other page](page1).
 
