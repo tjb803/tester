@@ -1,6 +1,6 @@
 ---
 nav: index
-subnav: page1
+name: Project
 ---
 
 # Testing Title
