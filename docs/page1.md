@@ -1,6 +1,6 @@
 ---
-nav: page1
-name: Page One
+ref: page1
+title: Page One
 ---
 
 # Page 1
