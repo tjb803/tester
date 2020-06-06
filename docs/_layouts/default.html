@@ -18,6 +18,11 @@
         <img class="header" alt="logo" src="{{ site.logo }}" />
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
+        
+        <nav>
+          <a href="{{ index.nav }}">{{ index.name }}</a>
+          <a href="{{ page1.nav }}">{{ page1.name }}</a>  
+        </nav>  
 
         <ul>
           {% if site.show_downloads %}
