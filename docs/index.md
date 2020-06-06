@@ -1,6 +1,6 @@
 ---
-nav: index
-name: Project
+ref: index
+title: Project
 ---
 
 # Testing Title
