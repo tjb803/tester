@@ -20,8 +20,9 @@
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
         
         <nav>
-          <a href="{{ index.nav }}">{{ index.name }}</a>
-          <a href="{{ page1.nav }}">{{ page1.name }}</a>  
+          {%- for item in site.html_pages -%}
+          <a href="{{ item.nav }}">{{ item.name }}</a>
+          {%- endfor -%}
         </nav>  
 
         <ul>
